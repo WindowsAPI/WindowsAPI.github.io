@@ -1,0 +1,48 @@
+title: WindowsAPI Blog
+tagline: Security Research & Windows Internals
+description: Technical writeups on Windows internals, malware analysis, and reverse engineering
+url: 'https://windowsapi.github.io'
+author: WindowsAPI
+
+# Theme settings
+remote_theme: cotes2020/jekyll-theme-chirpy@v4.3.3
+
+github:
+  username: WindowsAPI
+
+social:
+  name: WindowsAPI
+  links:
+    - https://github.com/WindowsAPI
+
+timezone: America/Los_Angeles
+lang: en
+
+markdown: kramdown
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+
+plugins:
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-seo-tag
+  - jekyll-remote-theme
+  - jekyll-archives
+  - jekyll-gist
+  - jemoji
+
+paginate: 10
+
+# Chirpy theme settings
+avatar: '/assets/img/avatar.png'
+toc: true
+
+jekyll-archives:
+  enabled: [categories, tags]
+  layouts:
+    category: category
+    tag: tag
+  permalinks:
+    tag: /tags/:name/
+    category: /categories/:name/
