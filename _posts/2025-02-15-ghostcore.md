@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "GhostCore v1.5 : Advanced Injection Distributor"
-date: 2025-02-16 12:00:00 -0500
+date: 2025-02-15 12:00:00 -0500
 categories: [Security, VAC]
 tags: [VAC, Bypass, Cheat, Discord]
 ---
